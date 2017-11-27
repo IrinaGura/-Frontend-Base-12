@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Frameworks.BOOTSTRAP4</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header class="container-fluid p-3  bg-dark text-white header ">
+		<div class="row d-flex justify-content-between">
+			<div class="col-5 col-sm-3 pr-1  d-flex align-items-center ">
+				<span class="mr-3">Startmin</span>
+				<a href="" class="text-white website">
+					<i class="fa fa-home " aria-hidden="true"></i>
+					<span>Website</span>
+				</a>
+			</div>
+
+
+			<div class="col-7 col-sm-4 col-xl-2 text-right  d-flex align-items-center ">
+
+				<i class="fa fa-bell" aria-hidden="true"></i>
+				<button class="border-0 bg-dark text-white p-0 mr-3">
+					<i class="fa fa-caret-down p-0 m-0" aria-hidden="true"></i>
+				</button>
+
+				<i class="fa fa-user mr-1" aria-hidden="true"></i>
+				<span class="p-2">secondtruth</span>
+
+				<button class=" m-1 border-0 bg-dark text-white p-0">
+					<i class="fa fa-caret-down " aria-hidden="true"></i>
+				</button>
+
+				<div class="dropdown d-block d-sm-none ">
+					<button class="btn btn-link border border-secondary  text-white d-md-none  ml-3" type="button" id="dropdownMenuButton" data-toggle="collapse"
+					 data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</button>
+
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+
+	<div class="container-fluit m-0 p-3">
+		<div class="row ">
+
+			<!--aside..........................aside-->
+
+			<aside class=" d-none d-sm-block col-sm-2 bg-light p-0 m-0">
+				<ul class=" list-group text-primary p-0 " id="bd-docs-nav">
+					<li class="list-group-item bg-light">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search..." aria-label="Search for...">
+							<span class="input-group-btn">
+								<button class="btn btn-secondary bg-primary" type="button">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</button>
+							</span>
+						</div>
+					</li>
+					<li class="list-group-item bg-light">
+						<i class="fa fa-tachometer" aria-hidden="true"></i>
+						Dashboard
+					</li>
+					<li class="list-group-item d-flex justify-content-between bg-light">
+						<div>
+							<i class="fa fa-bar-chart" aria-hidden="true"></i>
+							Charts
+						</div>
+						<i class="fa fa-angle-left " aria-hidden="true"></i>
+					</li>
+					<li class="list-group-item bg-light">
+						<i class="fa fa-table" aria-hidden="true"></i>
+						Tables
+					</li>
+					<li class="list-group-item bg-light">
+						<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+						Forms
+					</li>
+					<li class="list-group-item d-flex justify-content-between  bg-light">
+						<div>
+							<i class="fa fa-wrench" aria-hidden="true"></i>
+							UI Elements
+						</div>
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+					</li>
+					<li class="list-group-item d-flex justify-content-between bg-light">
+						<div>
+							<i class="fa fa-sitemap" aria-hidden="true"></i>
+							Multi-Level Dropdown
+						</div>
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+					</li>
+
+					<li class="list-group-item d-flex justify-content-between bg-light">
+						<div>
+							<i class="fa fa-files-o" aria-hidden="true"></i>
+							Sample Pages
+						</div>
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+					</li>
+				</ul>
+			</aside>
+
+			<!--section...........................................section-->
+
+			<section class="col-sm-10 col-12 p-4 m-0  ">
+				<div class="row">
+					<div class="col-12">
+						<h1 class=" text-dark">Dashboard</h1>
+						<hr class="my-4">
+					</div>
+					<!--card -primary-->
+					<div class="col-sm-3 col- 12 p-3">
+						<div class="card border-primary">
+							<div class="card-header text-white bg-primary  d-flex justify-content-between align-items-center p-1 m-0">
+								<div class="block-comments pr-1 pl-1">
+									<i class="fa fa-comments fa-4x" aria-hidden="true"></i>
+								</div>
+								<div class="text-right">
+									<p class=" p-0 m-0">26</p>
+									<p>New Comments!</p>
+								</div>
+							</div>
+							<div class="card-body bg-light  d-flex justify-content-between align-items-center text-primary p-1 m-0">
+								<p class="card-text m-0">View Details</p>
+								<button class="border-0 bg-light text-primary">
+									<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<!--card -success-->
+					<div class="col-sm-3 p-3">
+						<div class="card border-success">
+							<div class="card-header text-white bg-success  d-flex justify-content-between  p-1 m-0">
+								<div>
+									<i class="fa fa-comments fa-4x" aria-hidden="true"></i>
+								</div>
+								<div>
+									<p class=" p-0 m-0">26</p>
+									<p>New Comments!</p>
+								</div>
+							</div>
+							<div class="card-body bg-light  d-flex justify-content-between text-success p-1 m-0">
+								<p class="card-text m-0">View Details</p>
+								<button class="border-0 bg-light text-success">
+									<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
+
+					</div>
+					<!--card -warning-->
+					<div class="col-sm-3 p-3">
+						<div class="card border-warning">
+							<div class="card-header text-white bg-warning  d-flex justify-content-between  p-1 m-0">
+								<div>
+									<i class="fa fa-comments fa-4x" aria-hidden="true"></i>
+								</div>
+								<div>
+									<p class=" p-0 m-0">26</p>
+									<p>New Comments!</p>
+								</div>
+							</div>
+							<div class="card-body bg-light  d-flex justify-content-between text-warning p-1 m-0">
+								<p class="card-text m-0">View Details</p>
+								<button class="border-0 bg-light text-warning">
+									<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<!--card -danger-->
+					<div class="col-sm-3 p-3">
+						<div class="card border-danger">
+							<div class="card-header text-white bg-danger  d-flex justify-content-between  p-1 m-0">
+								<div>
+									<i class="fa fa-comments fa-4x" aria-hidden="true"></i>
+								</div>
+								<div>
+									<p class=" p-0 m-0">26</p>
+									<p>New Comments!</p>
+								</div>
+							</div>
+							<div class="card-body bg-light  d-flex justify-content-between text-danger p-1 m-0">
+								<p class="card-text m-0">View Details</p>
+								<button class="border-0 bg-light text-danger">
+									<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<!-- row responsive Timeline........-->
+
+				<div class="row pt-2">
+					<div class="col-sm-8 p-3 ">
+						<div class="card  m-0 text-secondary">
+							<div class="card-header ">
+								<h4>
+									<i class="fa fa-clock-o" aria-hidden="true"></i>
+									Responsive Timeline
+								</h4>
+							</div>
+
+							<div class="card-body">
+								<ul class="timeline position-relative">
+									<li>
+										<div class="timeline-badge border bg-secondary rounded-circle text-white">
+											<i class="fa fa-check" aria-hidden="true"></i>
+										</div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h4 class="timeline-title">Lorem ipsum dolor</h4>
+												<p>
+													<small class="text-muted">
+														<i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small>
+												</p>
+											</div>
+											<div class="timeline-body">
+
+												<p> Lorem ipsum sem tellus sagittis: orci lorem morbi ornare mattis maecenas. Vitae quisque proin porttitor vulputate
+													auctor proin nec elementum vitae molestie. Odio curabitur commodo maecenas et rutrum ultricies sed risus. </p>
+											</div>
+										</div>
+									</li>
+									<li class="timeline-inverted position-relative">
+										<div class="timeline-badge bg-warning border bg-secondary rounded-circle text-white">
+											<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+										</div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h4 class="timeline-title">Lorem ipsum dolor</h4>
+											</div>
+											<div class="timeline-body">
+												<p>Lorem ipsum sem tellus sagittis: orci lorem morbi ornare mattis maecenas. Vitae quisque proin porttitor vulputate
+													auctor proin nec elementum vitae molestie. Odio curabitur commodo maecenas et rutrum ultricies sed risus.</p>
+												<p>Lorem ipsum sem tellus sagittis: orci lorem morbi ornare mattis maecenas. Vitae quisque proin porttitor vulputate
+													auctor proin nec elementum vitae molestie. Odio curabitur commodo maecenas et rutrum ultricies sed risus.</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 pl-0 p-3">
+
+						<div class="card p-0 m-0 d-blok">
+							<div class="card-header bg-light" role="tab" id="headingOne">
+								<h5 class="mb-0">
+									<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<div class="text-dark d-flex justify-content-between align-items-center">
+											<i class="fa fa-comments" aria-hidden="true">&nbsp;Chat</i>
+											<button type="button" class="btn btn-outline-dark">
+												<i class="fa fa-chevron-down" aria-hidden="true"></i>
+											</button>
+										</div>
+									</a>
+								</h5>
+							</div>
+
+							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body">
+									<div data-spy="scroll" data-target="#headingOne" data-offset="0" class="scrollspy-1 position-relative">
+										<ul class="list-unstyled">
+											<li class="media">
+												<img class="mr-1 user-circle align-self-center rounded-circle " src="http://garantk.by/images/unknown_user_large.png" alt="Generic placeholder image">
+												<div class="media-body p-2">
+													<div class="d-flex justify-content-between align-items-center ">
+														<h6>Jack Sparrow</h6>
+														<small class="text-muted">
+															<i class="glyphicon glyphicon-time"></i> 12 mins ago</small>
+													</div>
+													<p class="card-text text-justify">Lorem ipsum sem tellus sagittis: orci lorem morbi ornare mattis maecenas. Vitae quisque proin porttitor vulputate
+														auctor proin nec elementum vitae molestie.</p>
+												</div>
+											</li>
+											<li class="media">
+												<div class="media-body p-2">
+													<div class="d-flex justify-content-between align-items-center ">
+
+														<small class="text-muted">
+															<i class="glyphicon glyphicon-time"></i> 13 mins ago</small>
+														<h6>Bhaumik Patel</h6>
+													</div>
+													<p class="card-text text-justify">Lorem ipsum sem tellus sagittis: orci lorem morbi ornare mattis maecenas. Vitae quisque proin porttitor vulputate
+														auctor proin nec elementum vitae molestie.</p>
+												</div>
+												<img class="mr-1 user-circle align-self-center rounded-circle " src="data:image/jpeg;base64,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"
+												 alt="Generic placeholder image">
+											</li>
+											<li class="media">
+												<img class="mr-1 user-circle align-self-center rounded-circle " src="http://garantk.by/images/unknown_user_large.png" alt="Generic placeholder image">
+												<div class="media-body p-2">
+													<div class="d-flex justify-content-between align-items-center ">
+														<h6>Jack Sparrow</h6>
+														<small class="text-muted">
+															<i class="glyphicon glyphicon-time"></i> 14 mins ago</small>
+													</div>
+													<p class="card-text text-justify">Lorem ipsum sem tellus sagittis: orci lorem morbi ornare mattis maecenas. Vitae quisque proin porttitor vulputate
+														auctor proin nec elementum vitae molestie.</p>
+												</div>
+											</li>
+											<li class="media">
+
+												<div class="media-body p-2">
+													<div class="d-flex justify-content-between align-items-center ">
+
+														<small class="text-muted">
+															<i class="glyphicon glyphicon-time"></i> 15 mins ago</small>
+														<h6>Bhaumik Patel</h6>
+													</div>
+													<p class="card-text text-justify">Lorem ipsum sem tellus sagittis: orci lorem morbi ornare mattis maecenas. Vitae quisque proin porttitor vulputate
+														auctor proin nec elementum vitae molestie.</p>
+												</div>
+												<img class="mr-1 user-circle align-self-center rounded-circle " src="data:image/jpeg;base64,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"
+												 alt="Generic placeholder image">
+											</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="card-footer text-muted">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Type your message here..." aria-label="Type your message here...">
+									<span class="input-group-btn">
+										<button class="btn btn-secondary bg-warning" type="button">Send </button>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
